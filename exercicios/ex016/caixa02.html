@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(76, 72, 72, 0.796);
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(80, 80, 80);
+            
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.587);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        main {
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.587);
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.587);
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 2px;
+        }
+
+        article > aside {
+            background-color: rgb(230, 230, 230);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+            <section id="noticias">
+                <article>
+                    <h2>Noticia Sobre o BR</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus possimus et quo? Nam error minima cum suscipit dolores dolore. Quis maiores suscipit provident sequi sint ratione illo eaque fuga commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officiis est sunt doloribus excepturi, esse nesciunt quidem quae et repellat autem dolores a ut quam expedita iste asperiores quis architecto.</p>
+                    <aside>Artigo escrito por Gabriel</aside>
+                </article>
+            </section>
+    </main>
+    <footer>
+        <h3>Desenvolvido por Gabriel</h3>
+    </footer>
+</body>
+</html>
